@@ -292,7 +292,7 @@ mEasyStreaming.setOnCameraSessionListener(this);
 |:---:|---|:---:|
 |bitrate|音频码率：即音频编码器每秒生产出多少数据（单位：kbps）|128|
 |samplerate|音频采样率：录音设备在一秒钟内对声音信号的采集次数|44100|
-|channels|音频采集声道数|1|
+|channels|音频采集声道数|2|
 
 - UCameraProfile：摄像头参数设置
 
