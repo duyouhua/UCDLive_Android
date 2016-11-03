@@ -29,10 +29,12 @@ public class MainActivity extends AppCompatActivity {
 
     private int default_index = 0;
 
-    String[] publishUrls = {"rtmp://publish3.cdn.ucloud.com.cn/ucloud/%s",
+    String[] publishUrls = {
+            "rtmp://publish3.cdn.ucloud.com.cn/ucloud/%s",
             "rtmp://publish3.usmtd.ucloud.com.cn/live/%s"};
 
-    String[] playUrls = {"http://vlive3.rtmp.cdn.ucloud.com.cn/ucloud/%s.flv",
+    String[] playUrls = {
+            "http://vlive3.rtmp.cdn.ucloud.com.cn/ucloud/%s.flv",
             "http://rtmp3.usmtd.ucloud.com.cn/live/%s.flv"
     };
 

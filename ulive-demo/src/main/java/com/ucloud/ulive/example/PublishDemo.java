@@ -663,7 +663,7 @@ public class PublishDemo extends Activity implements TextureView.SurfaceTextureL
             mPreviewContainer.setAspectRatio(((float) height) / width);
         }
 
-        Log.i(TAG, "lifecycle->demo->camera->onCameraOpenSuccessed, cameraId = " + cameraId + ", all support " +
+        Log.i(TAG, "lifecycle->demo->camera->onCameraOpenSuccessed->cameraId = " + cameraId + ", support " +
                 "camera index = " + cameraIndexs + "," + width + "x" + height);
     }
 

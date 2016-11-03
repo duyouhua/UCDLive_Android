@@ -193,6 +193,9 @@ String mRtmpAddress = "rtmp://xxx";
 UStreamingProfile mStreamingProfile = new UStreamingProfile.Builder().build(mRtmpAddress);
 mEasyStreaming.prepare(mStreamingProfile);
 ```
+> 【小细节】  
+> SDK 支持 ip 推流，格式如下：  
+> rtmp://127.0.0.1/ucloud/%s?host=publish3.cdn.ucloud.com.cn
 
 UStreamingProfile 为参数设置类，可设置类型包括音频、视频、摄像头、滤镜，具体内容参考[参数设置](#5.2)。
 
@@ -594,6 +597,10 @@ public void onDestroy() {
 
 <a name="8"></a>
 # 8 版本历史
+
+* v1.4.1 (2016.11.03)
+    - 增加ip推流支持
+    - 优化云适配
 
 * v1.4.0 (2016.10.25)
     - 功能模块拆分、解耦，增加外部使用可以操作自由度

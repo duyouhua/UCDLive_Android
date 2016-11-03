@@ -69,7 +69,7 @@ public class VideoActivity extends Activity implements UVideoView.Callback {
     }
 
     @Override
-    public void onEvent(int what, String message) {
+    public void onEvent(int what, Object message) {
         Log.d(TAG, "what:" + what + ", message:" + message);
         switch (what) {
             case UVideoView.Callback.EVENT_PLAY_START:
