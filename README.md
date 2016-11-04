@@ -68,6 +68,8 @@ UCDLive SDK 是由 UCloud 提供的低延时、高并发的直播云服务。
 - 支持 RTMP 推流地址鉴权功能
 - 支持云适配功能
 - 支持直播鉴黄功能
+- 支持混音效果
+- 支持 ip 推流
 
 <a name="3"></a>
 # 3 开发准备
@@ -545,11 +547,14 @@ Faceu 贴图步骤：
 <a name="5.5"></a>
 ## 音频滤镜
 
-如果您在直播过程中需要用到音频滤镜效果，我们目前暂时只提供了静音效果，后面会陆续补充添加。静音使用代码如下：
+如果您在直播过程中需要用到音频滤镜效果，我们目前提供了静音以及混音效果，后面会陆续补充添加。静音使用代码如下：
 
 ```
 mEasyStreaming.setAudioCPUFilter(new AudioMuteFilter());
 ```
+
+> 【小细节】  
+> 混音效果请参照 Demo 中的 URawAudioMixFilter
 
 如果您希望自定义GPU滤镜，需继承 UAudioCPUFilter 类，并重写以下方法即可，具体写法可参考 Demo 中的 AudioMuteFilter 滤镜。
 
