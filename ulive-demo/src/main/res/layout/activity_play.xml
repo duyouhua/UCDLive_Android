@@ -4,7 +4,7 @@
     android:background="@color/black">
 
     <com.ucloud.uvod.widget.UVideoView
-        android:id="@+id/videoview"
+        android:id="@+id/uvideoview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
