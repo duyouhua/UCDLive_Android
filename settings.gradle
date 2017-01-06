@@ -1,3 +1,1 @@
 include ':ulive-demo'
-include ':ulive-android-sdk'
-include ':uvod-android-sdk'
